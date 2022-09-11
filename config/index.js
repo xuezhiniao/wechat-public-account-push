@@ -39,7 +39,7 @@ export const config = {
       // 所在省份
       province: "四川",
       // 所在城市
-      city: "江油",
+      city: "绵阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '11-01',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -70,7 +70,7 @@ export const config = {
       // id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
       useTemplateId: "NPIw-4VJKyINCRBwf8hnThjbScbZmim12jRQGMWTkRM",
       province: "四川",
-      city: "江油",
+      city: "绵阳",
       horoscopeDate: '08-19',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
@@ -120,17 +120,69 @@ export const config = {
    * --- 阴历配置结束 ---
    * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
+   * 年份若在生日里，用于生日岁数的计算；若在节日里，只用于备注是今年还是明年，表面这是个手动更新的节日。
    */
   FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+	  
+	  //农历生日（农历日期，年份也填国历）
       {"type": "*生日", "name": "南寻", "year": "2000", "date": "08-19"},
       {"type": "*生日", "name": "鸣禽", "year": "1993", "date": "09-18"},
-      {"type": "*生日", "name": "我妈", "year": "1974", "date": "11-29"},
-	  {"type": "生日", "name": "我妈", "year": "1975", "date": "12-22"},
-      {"type": "*生日", "name": "我爸", "year": "1970", "date": "06-14"},
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    // {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "*生日", "name": "我妈", "year": "1975", "date": "11-29"},
+      {"type": "*生日", "name": "我爸", "year": "1970", "date": "04-27"},
+      //以下为农历节日，除夕是腊月29或者30，可能会出问题
+      {"type": "*节日", "name": "春节", "year": "", "date": "01-01"},
+      {"type": "*节日", "name": "上元", "year": "", "date": "01-15"},
+      {"type": "*节日", "name": "端午", "year": "", "date": "05-05"},
+      {"type": "*节日", "name": "七夕", "year": "", "date": "07-07"},
+      {"type": "*节日", "name": "中元", "year": "", "date": "07-15"},
+      {"type": "*节日", "name": "中秋", "year": "", "date": "08-15"},
+      {"type": "*节日", "name": "重阳", "year": "", "date": "09-09"},
+	  {"type": "*节日", "name": "下元", "year": "", "date": "10-15"},
+      {"type": "*节日", "name": "腊八", "year": "", "date": "12-08"},
+	  {"type": "*节日", "name": "小年", "year": "", "date": "12-23"},
+      {"type": "*节日", "name": "除夕", "year": "", "date": "12-30"},
+	  //以下为固定日期节日（日历）
+      {"type": "节日", "name": "元旦", "year": "", "date": "01-01"},
+      {"type": "节日", "name": "情人节", "year": "", "date": "02-14"},
+      {"type": "节日", "name": "妇女节", "year": "", "date": "03-08"},
+      {"type": "节日", "name": "劳动节", "year": "", "date": "05-01"},
+      {"type": "节日", "name": "儿童节", "year": "", "date": "06-01"},
+      {"type": "节日", "name": "教师节", "year": "", "date": "09-10"},
+      {"type": "节日", "name": "国庆节", "year": "", "date": "10-01"},
+      {"type": "节日", "name": "万圣节", "year": "", "date": "11-01"},
+      {"type": "节日", "name": "圣诞节", "year": "", "date": "12-25"},
+      {"type": "节日", "name": "双11购物节", "year": "", "date": "11-11"},
+      {"type": "节日", "name": "双12购物节", "year": "", "date": "12-12"},
+      {"type": "节日", "name": "618购物节", "year": "", "date": "06-18"},
+      {"type": "节日", "name": "王者荣耀周年庆", "year": "", "date": "10-28"},
+      {"type": "节日", "name": "CSOL周年庆", "year": "", "date": "11-30"},
+	  //以下为非固定日期节日（日历），每年手动更新
+      {"type": "节日", "name": "立春", "year": "2023", "date": "02-24"},
+      {"type": "节日", "name": "春分", "year": "2023", "date": "03-21"},
+      {"type": "节日", "name": "清明", "year": "2023", "date": "04-05"},	
+      {"type": "节日", "name": "立夏", "year": "2023", "date": "05-06"},
+      {"type": "节日", "name": "夏至", "year": "2023", "date": "06-21"},
+      {"type": "节日", "name": "入伏", "year": "2023", "date": "07-11"},
+      {"type": "节日", "name": "中伏", "year": "2023", "date": "07-21"},
+      {"type": "节日", "name": "末伏", "year": "2023", "date": "08-10"},
+      {"type": "节日", "name": "出伏", "year": "2023", "date": "08-20"},
+      {"type": "节日", "name": "立秋", "year": "2023", "date": "08-08"},
+      {"type": "节日", "name": "秋分", "year": "2022", "date": "09-23"},
+      {"type": "节日", "name": "立冬", "year": "2022", "date": "11-07"},
+      {"type": "节日", "name": "冬至", "year": "2022", "date": "12-22"},
+      
+      {"type": "节日", "name": "母亲节", "year": "2023", "date": "05-14"},
+      {"type": "节日", "name": "父亲节", "year": "2023", "date": "06-18"},
+      {"type": "节日", "name": "复活节", "year": "2023", "date": "03-31"},
+      {"type": "节日", "name": "感恩节", "year": "2022", "date": "11-24"},
+
+      //steam促销活动，感恩节需每年手动更新
+      {"type": "*节日", "name": "steam春节特卖（大致时间）", "year": "", "date": "12-29"},  //根据春节，提前2天
+      {"type": "节日", "name": "steam夏季特卖（大致时间）", "year": "", "date": "06-23"},      //根据美国独立日(7月4日)，提前10天
+      {"type": "节日", "name": "steam秋季特卖（大致时间）", "year": "2023", "date": "11-22"},  //根据感恩节，提前2天
+      {"type": "节日", "name": "steam冬季特卖（大致时间）", "year": "", "date": "12-20"},      //根据圣诞节，提前5天左右
+      {"type": "节日", "name": "steam万圣节特卖（大致时间）", "year": "", "date": "11-28"},    //根据万圣节，提前3天
+      {"type": "节日", "name": "steam黄金周特卖（大致时间）", "year": "", "date": "04-29"},    //steam固定节，约4月29日-30日开始
   ],
 
   /**
@@ -148,11 +200,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: ""},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+    {"keyword": "marry_day", date: ""},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+    {"keyword": "ex_day", date: ""},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ...
@@ -166,7 +218,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    //{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
