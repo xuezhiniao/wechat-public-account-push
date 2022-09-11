@@ -74,7 +74,7 @@ export const config = {
       horoscopeDate: '08-19',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      //festivals: [],
       customizedDateList: [
       // 在一起的日子
       {"keyword": "love_day", date: "2018-05-13"},
