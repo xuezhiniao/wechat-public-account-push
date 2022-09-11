@@ -140,7 +140,7 @@ export const config = {
 	  {"type": "*节日", "name": "下元", "year": "", "date": "10-15"},
       {"type": "*节日", "name": "腊八", "year": "", "date": "12-08"},
 	  {"type": "*节日", "name": "小年", "year": "", "date": "12-23"},
-      {"type": "*节日", "name": "除夕", "year": "", "date": "12-29"},
+      {"type": "*节日", "name": "除夕", "year": "2022", "date": "12-30"},
 	  //以下为固定日期节日（日历）
       {"type": "节日", "name": "元旦", "year": "", "date": "01-01"},
       {"type": "节日", "name": "情人节", "year": "", "date": "02-14"},
