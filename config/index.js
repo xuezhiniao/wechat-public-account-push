@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "odpus5ykGZPN-waMZmI2hw90sY_8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "NEG1ehxvIfcERkorWHYUQPa1J3f7CAD1eN9TLEzQa5M",
+      useTemplateId: "24pPyorjM3_GmS8I5GgKGFjqVIXSEQw1EOtS9ueq6PA",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -45,7 +45,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://tophub.today/",
+      openUrl: "https://duomoyu.com/",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
 //      festivals: [
 //        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -68,28 +68,39 @@ export const config = {
 	{
       name: "鸣禽",
       id: "odpus5ykGZPN-waMZmI2hw90sY_8",
-      useTemplateId: "Yfla4ja8dXL5DFAiptYjswflniMyt_ByDk7fCepXyz4",
+      useTemplateId: "rZBIXOwjaFbgjSP0VIk8BlmSa01GX_KyyoX04GDBFPo",
       province: "四川",
       city: "绵阳",
-      horoscopeDate: '08-19',
+      horoscopeDate: '11-01',
       horoscopeDateType: '今日',
-      openUrl: "https://tophub.today/",
+      openUrl: "https://www.1212.com/luck/scorpio/",
     },
     {
       name: "南寻",
       //id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
-      useTemplateId: "sUi0I6pG9Y_cKNuU5OGoJJV7WULrfx395ZKsCUtjKtY",
+      useTemplateId: "24pPyorjM3_GmS8I5GgKGFjqVIXSEQw1EOtS9ueq6PA",
       province: "四川",
       city: "绵阳",
       horoscopeDate: '08-19',
       horoscopeDateType: '今日',
-      openUrl: "https://tophub.today/",
+      openUrl: "https://duomoyu.com/",
       //festivals: [],
       customizedDateList: [
       // 在一起的日子
       {"keyword": "love_day", date: "2018-05-13"},
       ]
     },
+	{
+      name: "南寻",
+      //id: "odpus5ykGZPN-waMZmI2hw90sY_8",
+      useTemplateId: "rZBIXOwjaFbgjSP0VIk8BlmSa01GX_KyyoX04GDBFPo",
+      province: "四川",
+      city: "绵阳",
+      horoscopeDate: '08-19',
+      horoscopeDateType: '今日',
+      openUrl: "https://www.1212.com/luck/leo/",
+    },
+	
   ],
 
   /**
