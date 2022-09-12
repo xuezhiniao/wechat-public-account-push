@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "odpus5ykGZPN-waMZmI2hw90sY_8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "sUi0I6pG9Y_cKNuU5OGoJJV7WULrfx395ZKsCUtjKtY","Jybn6bEtSnnsYyBD9r6dFTsYzJBIjZHZJ_wW3roXtq0",
+      useTemplateId: "sUi0I6pG9Y_cKNuU5OGoJJV7WULrfx395ZKsCUtjKtY",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -64,6 +64,16 @@ export const config = {
         // 退伍日
         // {"keyword": "ex_day", date: "2022-09-10"},
       ]
+    },
+	{
+      name: "鸣禽",
+      id: "odpus5ykGZPN-waMZmI2hw90sY_8",
+      useTemplateId: "Jybn6bEtSnnsYyBD9r6dFTsYzJBIjZHZJ_wW3roXtq0",
+      province: "四川",
+      city: "绵阳",
+      horoscopeDate: '08-19',
+      horoscopeDateType: '今日',
+      openUrl: "https://tophub.today/",
     },
     {
       name: "南寻",
@@ -190,7 +200,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 6,
 
   /** 日期相关 */
 
