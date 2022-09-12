@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "odpus5ykGZPN-waMZmI2hw90sY_8",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "sUi0I6pG9Y_cKNuU5OGoJJV7WULrfx395ZKsCUtjKtY",
+      useTemplateId: "sUi0I6pG9Y_cKNuU5OGoJJV7WULrfx395ZKsCUtjKtY,Jybn6bEtSnnsYyBD9r6dFTsYzJBIjZHZJ_wW3roXtq0",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -67,7 +67,7 @@ export const config = {
     },
     {
       name: "南寻",
-      id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
+      //id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
       useTemplateId: "sUi0I6pG9Y_cKNuU5OGoJJV7WULrfx395ZKsCUtjKtY",
       province: "四川",
       city: "绵阳",
