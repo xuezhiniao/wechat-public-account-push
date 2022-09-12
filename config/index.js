@@ -92,7 +92,7 @@ export const config = {
     },
 	{
       name: "南寻",
-      id: "odpus5ykGZPN-waMZmI2hw90sY_8",
+      id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
       useTemplateId: "rZBIXOwjaFbgjSP0VIk8BlmSa01GX_KyyoX04GDBFPo",
       province: "四川",
       city: "绵阳",
