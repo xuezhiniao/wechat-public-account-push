@@ -29,6 +29,32 @@ export const config = {
    * ]
    */
   USERS: [
+      {
+      name: "南寻",
+      id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
+      useTemplateId: "24pPyorjM3_GmS8I5GgKGFjqVIXSEQw1EOtS9ueq6PA",
+      province: "四川",
+      city: "绵阳",
+      horoscopeDate: '08-19',
+      horoscopeDateType: '今日',
+      openUrl: "https://duomoyu.com/",
+      //festivals: [],
+      customizedDateList: [
+      // 在一起的日子
+      {"keyword": "love_day", date: "2018-05-13"},
+      ]
+    },
+	{
+      name: "南寻",
+      id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
+      useTemplateId: "rZBIXOwjaFbgjSP0VIk8BlmSa01GX_KyyoX04GDBFPo",
+      province: "四川",
+      city: "绵阳",
+      horoscopeDate: '08-19',
+      horoscopeDateType: '今日',
+      openUrl: "https://www.1212.com/luck/leo/",
+    },
+	
     {
       // 想要发送的人的名字
       name: "鸣禽",
@@ -75,32 +101,6 @@ export const config = {
       horoscopeDateType: '今日',
       openUrl: "https://www.1212.com/luck/scorpio/",
     },
-    {
-      name: "南寻",
-      id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
-      useTemplateId: "24pPyorjM3_GmS8I5GgKGFjqVIXSEQw1EOtS9ueq6PA",
-      province: "四川",
-      city: "绵阳",
-      horoscopeDate: '08-19',
-      horoscopeDateType: '今日',
-      openUrl: "https://duomoyu.com/",
-      //festivals: [],
-      customizedDateList: [
-      // 在一起的日子
-      {"keyword": "love_day", date: "2018-05-13"},
-      ]
-    },
-	{
-      name: "南寻",
-      id: "odpus5x9XFs7JvW0CSG_Nw4BVHRs",
-      useTemplateId: "rZBIXOwjaFbgjSP0VIk8BlmSa01GX_KyyoX04GDBFPo",
-      province: "四川",
-      city: "绵阳",
-      horoscopeDate: '08-19',
-      horoscopeDateType: '今日',
-      openUrl: "https://www.1212.com/luck/leo/",
-    },
-	
   ],
 
   /**
